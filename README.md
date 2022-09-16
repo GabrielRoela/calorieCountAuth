@@ -1,44 +1,18 @@
-# Introduction
+# My Awesome Project
 
-A Simple ToDo App is built using the MVC Architecture, we have also implemented "authorization" so folx can sign up, customize & personalize the app 
+A simple Calorie Counting app, with user authentication.
 
----
+## How It's Made:
 
-> Be sure to add that lovely star 😀 and fork it for your own copy
+**Tech used:** JavaScript, Node.JS, Express.JS, MongoDB, Mongoose, EJS, Passport.JS
 
----
+This app was created to better understand the uses of Node.js authentication middleware (passport.js) and the MVC architecture. Making use of the EJS template engine to generate our HTML, passportJS to handle user authentication, MongoDB as our database with the Mongoose Library to easily handle the schemas for our Data
 
-# Objectives
+## Optimizations
 
-- It's a beginner level app created to understand how MVC concept and logins are added
+Everything is fully functional so far. the next step is to make things pretty to look at and add a few minor Quality of Life functionalities, like deleting single entries and adding a Daily Goal to the user interface page that tracks how much more calories the user needs or how many calories they went over their goal.
 
----
+## Lessons Learned:
 
-# Who is this for? 
-
-- It's for beginners & intermediates with little more experience, to help understand the various aspects of building a node app with some complex features
-
----
-
-# Packages/Dependencies used 
-
-bcrypt, connect-mongo, dotenv, ejs, express, express-flash, express-session, mongodb, mongoose, morgan, nodemon, passport, passport-local, validator
-
----
-
-# Install all the dependencies or node packages used for development via Terminal
-
-`npm install` 
-
----
-
-# Things to add
-
-- Create a `.env` file and add the following as `key: value` 
-  - PORT: 2121 (can be any port example: 3000) 
-  - DB_STRING: `your database URI` 
- ---
- 
- Have fun testing and improving it! 😎
-
-
+How to integrate authentication middlewares into node/express.
+How to build an app with the MVC architecture
