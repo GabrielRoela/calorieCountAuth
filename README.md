@@ -1,4 +1,4 @@
-# My Awesome Project
+# Calorie Counter
 
 A simple Calorie Counting app, with user authentication.
 
